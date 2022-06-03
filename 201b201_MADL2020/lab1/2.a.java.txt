@@ -1,0 +1,24 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    //Scanner s=new Scanner(System.in);
+	    //int n=s.nextInt();
+	    //int n=Integer.parseInt(args[0]);
+	    int n=5;
+	    int sp=n-1;
+	    int str=1;
+		for(int i=0;i<n;i++){
+		    for(int j=1;j<=sp;j++){
+		        System.out.print(" ");
+		    }
+		    for(int j=1;j<=str;j++){
+		        System.out.print("* ");
+		    }
+
+		        sp--;
+		        str++;
+		    
+		    System.out.print("\n");
+		}
+	}
+}

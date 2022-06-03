@@ -1,0 +1,3 @@
+interface TTable{
+    void display();
+}
